@@ -373,7 +373,7 @@ void process(float *buffer, unsigned long numFrames, void *userData){
     //MIDI DEBUGGING
     ////////////////
     //DEBUGGING check if midi is working
-    printf("MIDI:");
+   /* printf("MIDI:");
       for(int i = 0; i < kNumVoices; i++){
         printf("[%i, %i] ", bag[i][0], bag[i][1]);
     }
@@ -389,7 +389,7 @@ void process(float *buffer, unsigned long numFrames, void *userData){
       for(int i = 0; i < kNumVoices; i++){
         printf("[%f] ", sineWave->amplitude[i]);
     }
-    printf("\n");
+    printf("\n");*/
 
   }//end of input stream
 }//end of function
